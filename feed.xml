@@ -3,8 +3,8 @@
     <generator uri="https://github.com/maxvoltar/photo-stream">Photo Stream by @maxvoltar</generator>
     <link href="https://photos.grayvines.com/feed.xml" rel="self" type="application/atom+xml" />
     <link href="https://photos.grayvines.com/" rel="alternate" type="text/html"/>
-    <updated>2020-07-31T00:19:03+00:00</updated>
-    <id>2020-07-31T00:19:03+00:00</id>
+    <updated>2020-07-31T13:38:35+00:00</updated>
+    <id>2020-07-31T13:38:35+00:00</id>
     <title type="html">Photography</title>
     <subtitle>@Julian trying to satisfy his photography hobby. Wanderlust included.</subtitle>
     <author>
@@ -13,13 +13,13 @@
       <uri>https://photos.grayvines.com</uri>
     </author>
     <entry>
-      <title type="html">jones-webster-hall</title>
-      <link href="https://photos.grayvines.com/jones-webster-hall/" rel="alternate" type="text/html" title="jones-webster-hall" />
-      <published></published>
-      <updated></updated>
-      <id>https://photos.grayvines.com//jones-webster-hall/</id>
+      <title type="html">Purple Nights</title>
+      <link href="https://photos.grayvines.com/purple-nights/" rel="alternate" type="text/html" title="Purple Nights" />
+      <published>2020-07-31T09:30:07+00:00</published>
+      <updated>2020-07-31T09:30:07+00:00</updated>
+      <id>https://photos.grayvines.com//purple-nights/</id>
       <content type="html">
-        <![CDATA[<figure><a href="https://photos.grayvines.com/jones-webster-hall/"><img src="https://photos.grayvines.com//photos/large/jones-webster-hall-686656.jpg" alt="jones-webster-hall" /></a></figure>
+        <![CDATA[<figure><a href="https://photos.grayvines.com/purple-nights/"><img src="https://photos.grayvines.com//photos/large/Purple%20Nights-686656.jpg" alt="Purple Nights" /></a></figure>
       ]]>
     </content>
     <author>
@@ -27,7 +27,25 @@
       <email>Julian+Photos@GrayVines.com</email>
       <uri>https://photos.grayvines.com</uri>
     </author>
-    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://photos.grayvines.com//photos/large/jones-webster-hall-686656.jpg" />
-      <media:content medium="image" url="https://photos.grayvines.com//photos/large/jones-webster-hall-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://photos.grayvines.com//photos/large/Purple%20Nights-686656.jpg" />
+      <media:content medium="image" url="https://photos.grayvines.com//photos/large/Purple%20Nights-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
       </entry>
-    </feed>
+      <entry>
+        <title type="html">JONES</title>
+        <link href="https://photos.grayvines.com/jones/" rel="alternate" type="text/html" title="JONES" />
+        <published></published>
+        <updated></updated>
+        <id>https://photos.grayvines.com//jones/</id>
+        <content type="html">
+          <![CDATA[<figure><a href="https://photos.grayvines.com/jones/"><img src="https://photos.grayvines.com//photos/large/JONES-686656.jpg" alt="JONES" /></a></figure>
+        ]]>
+      </content>
+      <author>
+        <name>Julian Berman</name>
+        <email>Julian+Photos@GrayVines.com</email>
+        <uri>https://photos.grayvines.com</uri>
+      </author>
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://photos.grayvines.com//photos/large/JONES-686656.jpg" />
+        <media:content medium="image" url="https://photos.grayvines.com//photos/large/JONES-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+        </entry>
+      </feed>
