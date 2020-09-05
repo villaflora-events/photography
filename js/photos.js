@@ -584,25 +584,6 @@ lazyload();
   <a href="/semana-grande" data-target="semana-grande" class="previous" title="Go to previous photo">
     <span>Previous</span>
   </a>
-  <a href="/rh%C3%B4ne" data-target="rhône" class="next" title="Go to next photo">
-    <span>Next</span>
-  </a>
-  <!-- <ul class="meta">
-    <li></li>
-    <li></li>
-    <li><span class="aperture"><em>f</em>/</span>0.0</li>
-	</ul> -->
-</li>
-<li class="item " id="rhône" style="background-image: url('/photos/tint/Rh%C3%B4ne-65ba1d.jpg')" title="Rhône">
-  <img class="lazyload" data-src="/photos/thumbnail/Rh%C3%B4ne-ccf4df.jpg" src="/photos/tint/Rh%C3%B4ne-65ba1d.jpg" height="2034" width="1080" />
-  <span class="full">
-    <span style="background-image: url('/photos/large/Rh%C3%B4ne-686656.jpg')"></span>
-  </span>
-  <a class="open" href="/rh%C3%B4ne" data-target="rhône">Open</a>
-  <a class="close" href="/">Close</a>
-  <a href="/selah-sue" data-target="selah-sue" class="previous" title="Go to previous photo">
-    <span>Previous</span>
-  </a>
   <a href="/rheinturm-branches" data-target="rheinturm-branches" class="next" title="Go to next photo">
     <span>Next</span>
   </a>
@@ -619,7 +600,7 @@ lazyload();
   </span>
   <a class="open" href="/rheinturm-branches" data-target="rheinturm-branches">Open</a>
   <a class="close" href="/">Close</a>
-  <a href="/rh%C3%B4ne" data-target="rhône" class="previous" title="Go to previous photo">
+  <a href="/selah-sue" data-target="selah-sue" class="previous" title="Go to previous photo">
     <span>Previous</span>
   </a>
   <a href="/red-window" data-target="red-window" class="next" title="Go to next photo">
@@ -736,25 +717,6 @@ lazyload();
   <a href="/purple-iceland" data-target="purple-iceland" class="previous" title="Go to previous photo">
     <span>Previous</span>
   </a>
-  <a href="/paolo-scavino" data-target="paolo-scavino" class="next" title="Go to next photo">
-    <span>Next</span>
-  </a>
-  <!-- <ul class="meta">
-    <li></li>
-    <li></li>
-    <li><span class="aperture"><em>f</em>/</span>0.0</li>
-	</ul> -->
-</li>
-<li class="item " id="paolo-scavino" style="background-image: url('/photos/tint/Paolo%20Scavino-65ba1d.jpg')" title="Paolo Scavino">
-  <img class="lazyload" data-src="/photos/thumbnail/Paolo%20Scavino-ccf4df.jpg" src="/photos/tint/Paolo%20Scavino-65ba1d.jpg" height="600" width="1080" />
-  <span class="full">
-    <span style="background-image: url('/photos/large/Paolo%20Scavino-686656.jpg')"></span>
-  </span>
-  <a class="open" href="/paolo-scavino" data-target="paolo-scavino">Open</a>
-  <a class="close" href="/">Close</a>
-  <a href="/paris-through-the-looking-glass" data-target="paris-through-the-looking-glass" class="previous" title="Go to previous photo">
-    <span>Previous</span>
-  </a>
   <a href="/pal%C3%A1cio-nacional-de-sintra" data-target="palácio-nacional-de-sintra" class="next" title="Go to next photo">
     <span>Next</span>
   </a>
@@ -771,7 +733,7 @@ lazyload();
   </span>
   <a class="open" href="/pal%C3%A1cio-nacional-de-sintra" data-target="palácio-nacional-de-sintra">Open</a>
   <a class="close" href="/">Close</a>
-  <a href="/paolo-scavino" data-target="paolo-scavino" class="previous" title="Go to previous photo">
+  <a href="/paris-through-the-looking-glass" data-target="paris-through-the-looking-glass" class="previous" title="Go to previous photo">
     <span>Previous</span>
   </a>
   <a href="/opened" data-target="opened" class="next" title="Go to next photo">
@@ -1667,44 +1629,6 @@ lazyload();
   <a href="/backyard-waterfalls" data-target="backyard-waterfalls" class="previous" title="Go to previous photo">
     <span>Previous</span>
   </a>
-  <a href="/amongst-the-trees" data-target="amongst-the-trees" class="next" title="Go to next photo">
-    <span>Next</span>
-  </a>
-  <!-- <ul class="meta">
-    <li></li>
-    <li></li>
-    <li><span class="aperture"><em>f</em>/</span>0.0</li>
-	</ul> -->
-</li>
-<li class="item " id="amongst-the-trees" style="background-image: url('/photos/tint/Amongst%20the%20Trees-65ba1d.jpg')" title="Amongst the Trees">
-  <img class="lazyload" data-src="/photos/thumbnail/Amongst%20the%20Trees-ccf4df.jpg" src="/photos/tint/Amongst%20the%20Trees-65ba1d.jpg" height="532" width="1069" />
-  <span class="full">
-    <span style="background-image: url('/photos/large/Amongst%20the%20Trees-686656.jpg')"></span>
-  </span>
-  <a class="open" href="/amongst-the-trees" data-target="amongst-the-trees">Open</a>
-  <a class="close" href="/">Close</a>
-  <a href="/azulejos" data-target="azulejos" class="previous" title="Go to previous photo">
-    <span>Previous</span>
-  </a>
-  <a href="/albufeira" data-target="albufeira" class="next" title="Go to next photo">
-    <span>Next</span>
-  </a>
-  <!-- <ul class="meta">
-    <li></li>
-    <li></li>
-    <li><span class="aperture"><em>f</em>/</span>0.0</li>
-	</ul> -->
-</li>
-<li class="item " id="albufeira" style="background-image: url('/photos/tint/Albufeira-65ba1d.jpg')" title="Albufeira">
-  <img class="lazyload" data-src="/photos/thumbnail/Albufeira-ccf4df.jpg" src="/photos/tint/Albufeira-65ba1d.jpg" height="2034" width="1080" />
-  <span class="full">
-    <span style="background-image: url('/photos/large/Albufeira-686656.jpg')"></span>
-  </span>
-  <a class="open" href="/albufeira" data-target="albufeira">Open</a>
-  <a class="close" href="/">Close</a>
-  <a href="/amongst-the-trees" data-target="amongst-the-trees" class="previous" title="Go to previous photo">
-    <span>Previous</span>
-  </a>
   <a href="/above-nyc" data-target="above-nyc" class="next" title="Go to next photo">
     <span>Next</span>
   </a>
@@ -1721,7 +1645,7 @@ lazyload();
   </span>
   <a class="open" href="/above-nyc" data-target="above-nyc">Open</a>
   <a class="close" href="/">Close</a>
-  <a href="/albufeira" data-target="albufeira" class="previous" title="Go to previous photo">
+  <a href="/azulejos" data-target="azulejos" class="previous" title="Go to previous photo">
     <span>Previous</span>
   </a>
   <a href="/ablaze" data-target="ablaze" class="next" title="Go to next photo">

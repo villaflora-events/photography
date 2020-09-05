@@ -39,10 +39,10 @@ MKINSTALLDIRS = mkdir -p
 
 CC = gcc
 GENCAT = @GENCAT@
-GMSGFMT = /usr/bin/msgfmt
-MSGFMT = /usr/bin/msgfmt
-MSGFMT_OPTS = -c
-XGETTEXT = /usr/bin/xgettext
+GMSGFMT = 
+MSGFMT = no
+MSGFMT_OPTS = 
+XGETTEXT = :
 MSGMERGE = msgmerge
 
 DEFS = -DHAVE_CONFIG_H
@@ -497,9 +497,9 @@ POTFILES = \
 	../libvips/resample/reducev.cpp \
 	../libvips/resample/bicubic.cpp
 
-CATALOGS =  en_GB.gmo de.gmo
-CATOBJEXT = .gmo
-INSTOBJEXT = .mo
+CATALOGS = 
+CATOBJEXT = NONE
+INSTOBJEXT = 
 
 .SUFFIXES:
 .SUFFIXES: .c .o .po .pox .gmo .mo .msg .cat

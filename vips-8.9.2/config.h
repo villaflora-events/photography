@@ -11,7 +11,7 @@
 #define ENABLE_MAGICKSAVE 1
 
 /* always defined to indicate that i18n is enabled */
-#define ENABLE_NLS 1
+/* #undef ENABLE_NLS */
 
 /* The prefix for our gettext translation domains. */
 #define GETTEXT_PACKAGE "vips8.9"
@@ -73,7 +73,7 @@
 /* #undef HAVE_DATE_TIME_FORMAT_ISO8601 */
 
 /* Define to 1 if you have the `dcgettext' function. */
-#define HAVE_DCGETTEXT 1
+/* #undef HAVE_DCGETTEXT */
 
 /* Define to 1 if you have the <direct.h> header file. */
 /* #undef HAVE_DIRECT_H */
