@@ -70,7 +70,7 @@
 #define HAVE_CONTEXT_GET_HELP 1
 
 /* define if your glib has g_date_time_format_iso8601(). */
-/* #undef HAVE_DATE_TIME_FORMAT_ISO8601 */
+#define HAVE_DATE_TIME_FORMAT_ISO8601 1
 
 /* Define to 1 if you have the `dcgettext' function. */
 /* #undef HAVE_DCGETTEXT */
@@ -422,7 +422,7 @@
 #define HAVE_TIFF 1
 
 /* define if your libtiff has webp. */
-/* #undef HAVE_TIFF_COMPRESSION_WEBP */
+#define HAVE_TIFF_COMPRESSION_WEBP 1
 
 /* define if your glib needs g_type_init(). */
 /* #undef HAVE_TYPE_INIT */

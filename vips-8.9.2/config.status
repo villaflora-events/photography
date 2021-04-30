@@ -440,7 +440,7 @@ gives unlimited permission to copy, distribute and modify it."
 ac_pwd='/home/runner/work/photography/photography/vips-8.9.2'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
-MKDIR_P='/bin/mkdir -p'
+MKDIR_P='/usr/bin/mkdir -p'
 AWK='gawk'
 test -n "$AWK" || AWK=awk
 # The default lists apply if the user does not specify any file.
@@ -569,11 +569,11 @@ host_os='linux-gnu'
 build_alias=''
 build='x86_64-pc-linux-gnu'
 build_os='linux-gnu'
-SED='/bin/sed'
-Xsed='/bin/sed -e 1s/^X//'
-GREP='/bin/grep'
-EGREP='/bin/grep -E'
-FGREP='/bin/grep -F'
+SED='/usr/bin/sed'
+Xsed='/usr/bin/sed -e 1s/^X//'
+GREP='/usr/bin/grep'
+EGREP='/usr/bin/grep -E'
+FGREP='/usr/bin/grep -F'
 LD='ld -m elf_x86_64'
 NM='/usr/bin/nm -B'
 LN_S='ln -s'
@@ -613,7 +613,7 @@ lt_cv_sys_global_symbol_to_c_name_address_lib_prefix='sed -n -e '\''s/^: \(.*\) 
 lt_cv_nm_interface='BSD nm'
 nm_file_list_spec='@'
 lt_sysroot=''
-lt_cv_truncate_bin='/bin/dd bs=4096 count=1'
+lt_cv_truncate_bin='/usr/bin/dd bs=4096 count=1'
 objdir='.libs'
 MAGIC_CMD='file'
 lt_prog_compiler_no_builtin_flag=' -fno-builtin'
@@ -680,7 +680,7 @@ postuninstall_cmds=''
 finish_cmds='PATH="\$PATH:/sbin" ldconfig -n $libdir'
 finish_eval=''
 hardcode_into_libs='yes'
-sys_lib_search_path_spec='/usr/lib/gcc/x86_64-linux-gnu/7 /usr/lib/x86_64-linux-gnu /usr/lib /lib/x86_64-linux-gnu /lib '
+sys_lib_search_path_spec='/usr/lib/gcc/x86_64-linux-gnu/9 /usr/lib/x86_64-linux-gnu /usr/lib /lib/x86_64-linux-gnu /lib '
 configure_time_dlsearch_path='/lib /usr/lib /usr/lib/x86_64-linux-gnu/libfakeroot /usr/local/lib /usr/local/lib/x86_64-linux-gnu /lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu /lib32 /usr/lib32 '
 configure_time_lt_sys_library_path=''
 hardcode_action='immediate'
@@ -737,12 +737,12 @@ prelink_cmds_CXX=''
 postlink_cmds_CXX=''
 file_list_spec_CXX=''
 hardcode_action_CXX='immediate'
-compiler_lib_search_dirs_CXX='/usr/lib/gcc/x86_64-linux-gnu/7 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib /lib/x86_64-linux-gnu /lib/../lib /usr/lib/x86_64-linux-gnu /usr/lib/../lib /usr/lib/gcc/x86_64-linux-gnu/7/../../..'
-predep_objects_CXX='/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o'
-postdep_objects_CXX='/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o'
+compiler_lib_search_dirs_CXX='/usr/lib/gcc/x86_64-linux-gnu/9 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu /usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib /lib/x86_64-linux-gnu /lib/../lib /usr/lib/x86_64-linux-gnu /usr/lib/../lib /usr/lib/gcc/x86_64-linux-gnu/9/../../..'
+predep_objects_CXX='/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o'
+postdep_objects_CXX='/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o'
 predeps_CXX=''
 postdeps_CXX='-lstdc++ -lm -lgcc_s -lc -lgcc_s'
-compiler_lib_search_path_CXX='-L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../..'
+compiler_lib_search_path_CXX='-L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../..'
 
 LTCC='gcc'
 LTCFLAGS='-g -O2'
@@ -919,20 +919,20 @@ S["LTLIBOBJS"]=""
 S["TOP_SRCDIR"]="/home/runner/work/photography/photography/vips-8.9.2"
 S["EXTRA_LIBS_USED"]=""
 S["PACKAGES_USED"]=" glib-2.0 gmodule-2.0 gobject-2.0 gthread-2.0 MagickCore lcms2 OpenEXR librsvg-2.0 cairo zlib libtiff-4 libpng libjpeg libexif"
-S["VIPS_LIBS"]="-lz  -lMagickCore-6.Q16 -lpng16 -lz  -ltiff -ljpeg -lgthread-2.0 -pthread -lglib-2.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lgobject-2.0 -lgli"\
-"b-2.0  -lexpat     -llcms2  -lrsvg-2 -lm -lgio-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lcairo    -lIlmImf -lImath -lHalf -lIex -lIexMath -lIl"\
-"mThread -lpthread      -lexif -lm"
+S["VIPS_LIBS"]="-lz  -lMagickCore-6.Q16 -lpng16 -lz  -ltiff -L/build/libjpeg-turbo-6HlDLQ/libjpeg-turbo-2.0.3/obj-x86_64-linux-gnu/lib/x86_64-linux-gnu -ljpeg -lgth"\
+"read-2.0 -pthread -lglib-2.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lgobject-2.0 -lglib-2.0  -lexpat     -llcms2  -lrsvg-2 -lm -lgio-2.0 -lgdk"\
+"_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lcairo    -lIlmImf -lImath -lHalf -lIex -lIexMath -lIlmThread -lpthread      -lexif -lm"
 S["VIPS_INCLUDES"]="    "
 S["VIPS_CFLAGS"]="-DG_DISABLE_ASSERT -DG_DISABLE_CHECKS -pthread -fopenmp -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/x86_64-linux-gnu//ImageMagick-6 "\
-"-I/usr/include/x86_64-linux-gnu -I/usr/include/pixman-1 -I/usr/include/librsvg-2.0 -I/usr/include/libpng16 -I/usr/include/libexif -I/usr/include/gli"\
-"b-2.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/freetype2 -I/usr/include/cairo -I/usr/include/OpenEXR -I/usr/include/ImageMagick-6 -DMAGICKCORE_Q"\
-"UANTUM_DEPTH=16 -DMAGICKCORE_HDRI_ENABLE=0"
+"-I/usr/include/x86_64-linux-gnu -I/usr/include/uuid -I/usr/include/pixman-1 -I/usr/include/librsvg-2.0 -I/usr/include/libpng16 -I/usr/include/libmou"\
+"nt -I/usr/include/libexif -I/usr/include/glib-2.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/freetype2 -I/usr/include/cairo -I/usr/include/blkid -"\
+"I/usr/include/OpenEXR -I/usr/include/ImageMagick-6 -DMAGICKCORE_QUANTUM_DEPTH=16 -DMAGICKCORE_HDRI_ENABLE=0"
 S["VIPS_LIBDIR"]="/usr/lib"
 S["LIB_FUZZING_ENGINE"]="libstandaloneengine.a"
 S["EXIF_LIBS"]="-lexif"
 S["EXIF_CFLAGS"]="-I/usr/include/libexif"
 S["JPEG_INCLUDES"]=""
-S["JPEG_LIBS"]="-ljpeg"
+S["JPEG_LIBS"]="-L/build/libjpeg-turbo-6HlDLQ/libjpeg-turbo-2.0.3/obj-x86_64-linux-gnu/lib/x86_64-linux-gnu -ljpeg"
 S["JPEG_CFLAGS"]=""
 S["IMAGEQUANT_LIBS"]=""
 S["IMAGEQUANT_CFLAGS"]=""
@@ -958,9 +958,8 @@ S["ZLIB_INCLUDES"]=""
 S["ZLIB_LIBS"]="-lz"
 S["ZLIB_CFLAGS"]=""
 S["RSVG_LIBS"]="-lrsvg-2 -lm -lgio-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lcairo"
-S["RSVG_CFLAGS"]="-pthread -I/usr/include/librsvg-2.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x8"\
-"6_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/freetype2 -I/usr/include/lib"\
-"png16"
+S["RSVG_CFLAGS"]="-pthread -I/usr/include/librsvg-2.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/cairo -I/usr/include/g"\
+"lib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16"
 S["POPPLER_LIBS"]=""
 S["POPPLER_CFLAGS"]=""
 S["PDFIUM_INCLUDES"]=""
@@ -1029,8 +1028,8 @@ S["THREADS_LIBS"]="-lglib-2.0"
 S["THREADS_CFLAGS"]="-I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include"
 S["GTHREAD_LIBS"]="-lgthread-2.0 -pthread -lglib-2.0"
 S["GTHREAD_CFLAGS"]="-pthread -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include"
-S["DATE_TIME_FORMAT_ISO8601_LIBS"]=""
-S["DATE_TIME_FORMAT_ISO8601_CFLAGS"]=""
+S["DATE_TIME_FORMAT_ISO8601_LIBS"]="-lglib-2.0"
+S["DATE_TIME_FORMAT_ISO8601_CFLAGS"]="-I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include"
 S["MONOTONIC_TIME_LIBS"]="-lglib-2.0"
 S["MONOTONIC_TIME_CFLAGS"]="-I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include"
 S["GIO_LIBS"]="-lglib-2.0"
@@ -1054,8 +1053,8 @@ S["ac_ct_AR"]="ar"
 S["NM"]="/usr/bin/nm -B"
 S["ac_ct_DUMPBIN"]=""
 S["DUMPBIN"]=""
-S["FGREP"]="/bin/grep -F"
-S["SED"]="/bin/sed"
+S["FGREP"]="/usr/bin/grep -F"
+S["SED"]="/usr/bin/sed"
 S["LIBTOOL"]="$(SHELL) $(top_builddir)/libtool"
 S["LD"]="ld -m elf_x86_64"
 S["AR"]="ar"
@@ -1080,8 +1079,8 @@ S["MSGFMT_OPTS"]=""
 S["MSGFMT"]="no"
 S["INTL_MACOSX_LIBS"]=""
 S["USE_NLS"]="yes"
-S["EGREP"]="/bin/grep -E"
-S["GREP"]="/bin/grep"
+S["EGREP"]="/usr/bin/grep -E"
+S["GREP"]="/usr/bin/grep"
 S["CPP"]="gcc -E"
 S["GETTEXT_PACKAGE"]="vips8.9"
 S["VIPS_EXEEXT"]=""
@@ -1122,55 +1121,55 @@ S["build_os"]="linux-gnu"
 S["build_vendor"]="pc"
 S["build_cpu"]="x86_64"
 S["build"]="x86_64-pc-linux-gnu"
-S["vips_introspection_sources"]=" ./iofuncs/sink.c ./iofuncs/system.c ./iofuncs/window.c ./iofuncs/buf.c ./iofuncs/memory.c ./iofuncs/source.c ./iofuncs/connection.c ./iofuncs/gener"\
-"ate.c ./iofuncs/targetcustom.c ./iofuncs/reorder.c ./iofuncs/rect.c ./iofuncs/enumtypes.c ./iofuncs/cache.c ./iofuncs/sinkscreen.c ./iofuncs/sbuf.c "\
-"./iofuncs/operation.c ./iofuncs/gate.c ./iofuncs/dbuf.c ./iofuncs/type.c ./iofuncs/sinkmemory.c ./iofuncs/buffer.c ./iofuncs/vector.c ./iofuncs/util"\
-".c ./iofuncs/sinkdisc.c ./iofuncs/vipsmarshal.c ./iofuncs/semaphore.c ./iofuncs/vips.c ./iofuncs/object.c ./iofuncs/sourcecustom.c ./iofuncs/header."\
-"c ./iofuncs/target.c ./iofuncs/base64.c ./iofuncs/error.c ./iofuncs/init.c ./iofuncs/image.c ./iofuncs/region.c ./iofuncs/mapfile.c ./iofuncs/thread"\
-"pool.c ./morphology/morph.c ./morphology/morphology.c ./morphology/hitmiss.c ./morphology/rank.c ./morphology/countlines.c ./morphology/nearest.c ./"\
-"morphology/labelregions.c ./colour/LabQ2sRGB.c ./colour/LabS2Lab.c ./colour/rad2float.c ./colour/icc_transform.c ./colour/LabQ2LabS.c ./colour/scRGB"\
-"2BW.c ./colour/scRGB2XYZ.c ./colour/sRGB2HSV.c ./colour/LCh2Lab.c ./colour/XYZ2scRGB.c ./colour/dE76.c ./colour/UCS2LCh.c ./colour/HSV2sRGB.c ./colo"\
-"ur/scRGB2sRGB.c ./colour/dECMC.c ./colour/Lab2LabS.c ./colour/Lab2LabQ.c ./colour/colourspace.c ./colour/XYZ2CMYK.c ./colour/Lab2LCh.c ./colour/LCh2"\
-"UCS.c ./colour/profiles.c ./colour/Lab2XYZ.c ./colour/LabS2LabQ.c ./colour/colour.c ./colour/dE00.c ./colour/XYZ2Yxy.c ./colour/XYZ2Lab.c ./colour/C"\
-"MYK2XYZ.c ./colour/profile_load.c ./colour/sRGB2scRGB.c ./colour/float2rad.c ./colour/LabQ2Lab.c ./colour/Yxy2XYZ.c ./conversion/unpremultiply.c ./c"\
-"onversion/smartcrop.c ./conversion/bandary.c ./conversion/tilecache.c ./conversion/byteswap.c ./conversion/cache.c ./conversion/subsample.c ./conver"\
-"sion/recomb.c ./conversion/bandjoin.c ./conversion/bandfold.c ./conversion/falsecolour.c ./conversion/sequential.c ./conversion/msb.c ./conversion/e"\
-"mbed.c ./conversion/bandunfold.c ./conversion/flatten.c ./conversion/switch.c ./conversion/bandmean.c ./conversion/scale.c ./conversion/cast.c ./con"\
-"version/rot45.c ./conversion/ifthenelse.c ./conversion/rot.c ./conversion/bandrank.c ./conversion/premultiply.c ./conversion/conversion.c ./conversi"\
-"on/grid.c ./conversion/flip.c ./conversion/bandbool.c ./conversion/copy.c ./conversion/insert.c ./conversion/transpose3d.c ./conversion/autorot.c ./"\
-"conversion/replicate.c ./conversion/gamma.c ./conversion/join.c ./conversion/arrayjoin.c ./conversion/zoom.c ./conversion/wrap.c ./conversion/extrac"\
-"t.c ./mosaicing/im_lrmosaic.c ./mosaicing/im_lrmerge.c ./mosaicing/mosaic.c ./mosaicing/im_improve.c ./mosaicing/match.c ./mosaicing/im_tbmosaic.c ."\
-"/mosaicing/im_tbcalcon.c ./mosaicing/global_balance.c ./mosaicing/im_chkpair.c ./mosaicing/im_tbmerge.c ./mosaicing/im_remosaic.c ./mosaicing/im_cli"\
-"near.c ./mosaicing/mosaicing.c ./mosaicing/im_avgdxdy.c ./mosaicing/mosaic1.c ./mosaicing/im_lrcalcon.c ./mosaicing/merge.c ./mosaicing/im_initializ"\
-"e.c ./arithmetic/hist_find_ndim.c ./arithmetic/divide.c ./arithmetic/math2.c ./arithmetic/abs.c ./arithmetic/profile.c ./arithmetic/avg.c ./arithmet"\
-"ic/boolean.c ./arithmetic/binary.c ./arithmetic/nary.c ./arithmetic/multiply.c ./arithmetic/getpoint.c ./arithmetic/stats.c ./arithmetic/math.c ./ar"\
-"ithmetic/round.c ./arithmetic/sum.c ./arithmetic/deviate.c ./arithmetic/statistic.c ./arithmetic/hough.c ./arithmetic/subtract.c ./arithmetic/min.c "\
-"./arithmetic/unary.c ./arithmetic/hist_find.c ./arithmetic/invert.c ./arithmetic/project.c ./arithmetic/add.c ./arithmetic/measure.c ./arithmetic/ho"\
-"ugh_line.c ./arithmetic/remainder.c ./arithmetic/unaryconst.c ./arithmetic/arithmetic.c ./arithmetic/relational.c ./arithmetic/complex.c ./arithmeti"\
-"c/linear.c ./arithmetic/hist_find_indexed.c ./arithmetic/sign.c ./arithmetic/max.c ./arithmetic/find_trim.c ./arithmetic/hough_circle.c ./foreign/fi"\
-"tsload.c ./foreign/dzsave.c ./foreign/pngload.c ./foreign/jpegsave.c ./foreign/vipsload.c ./foreign/magick.c ./foreign/analyze2vips.c ./foreign/vips"\
-"save.c ./foreign/openexr2vips.c ./foreign/radsave.c ./foreign/matload.c ./foreign/analyzeload.c ./foreign/webp2vips.c ./foreign/vips2jpeg.c ./foreig"\
-"n/tiff2vips.c ./foreign/pdfload.c ./foreign/jpeg2vips.c ./foreign/magick2vips.c ./foreign/gifload.c ./foreign/rawload.c ./foreign/ppmsave.c ./foreig"\
-"n/tiffsave.c ./foreign/csvload.c ./foreign/fitssave.c ./foreign/niftisave.c ./foreign/rawsave.c ./foreign/heifload.c ./foreign/foreign.c ./foreign/t"\
-"iffload.c ./foreign/heifsave.c ./foreign/cairo.c ./foreign/csv.c ./foreign/pdfiumload.c ./foreign/openslide2vips.c ./foreign/magick7load.c ./foreign"\
-"/vips2tiff.c ./foreign/matrixload.c ./foreign/webpload.c ./foreign/svgload.c ./foreign/jpegload.c ./foreign/quantise.c ./foreign/radload.c ./foreign"\
-"/exif.c ./foreign/openslideload.c ./foreign/vips2webp.c ./foreign/matrixsave.c ./foreign/webpsave.c ./foreign/ppmload.c ./foreign/vipspng.c ./foreig"\
-"n/csvsave.c ./foreign/niftiload.c ./foreign/radiance.c ./foreign/pngsave.c ./foreign/tiff.c ./foreign/matlab.c ./foreign/magicksave.c ./foreign/open"\
-"exrload.c ./foreign/magickload.c ./foreign/fits.c ./convolution/convolution.c ./convolution/correlation.c ./convolution/spcor.c ./convolution/convi."\
-"c ./convolution/canny.c ./convolution/conv.c ./convolution/conva.c ./convolution/fastcor.c ./convolution/sobel.c ./convolution/compass.c ./convoluti"\
-"on/sharpen.c ./convolution/gaussblur.c ./convolution/convf.c ./convolution/convsep.c ./convolution/convasep.c ./draw/draw_flood.c ./draw/draw.c ./dr"\
-"aw/draw_rect.c ./draw/draw_line.c ./draw/drawink.c ./draw/draw_circle.c ./draw/draw_image.c ./draw/draw_mask.c ./draw/draw_smudge.c ./histogram/hist"\
-"_norm.c ./histogram/stdif.c ./histogram/hist_entropy.c ./histogram/hist_ismonotonic.c ./histogram/histogram.c ./histogram/hist_plot.c ./histogram/hi"\
-"st_unary.c ./histogram/hist_match.c ./histogram/hist_equal.c ./histogram/hist_cum.c ./histogram/hist_local.c ./histogram/percent.c ./histogram/case."\
-"c ./histogram/maplut.c ./resample/transform.c ./resample/thumbnail.c ./resample/resize.c ./resample/quadratic.c ./resample/reduce.c ./resample/shrin"\
-"kv.c ./resample/interpolate.c ./resample/shrinkh.c ./resample/mapim.c ./resample/resample.c ./resample/similarity.c ./resample/affine.c ./resample/s"\
-"hrink.c ./create/xyz.c ./create/gaussmat.c ./create/mask_ideal_band.c ./create/sines.c ./create/worley.c ./create/point.c ./create/mask_gaussian.c ."\
-"/create/mask_ideal.c ./create/zone.c ./create/mask_fractal.c ./create/mask_butterworth.c ./create/mask_butterworth_ring.c ./create/identity.c ./crea"\
-"te/invertlut.c ./create/black.c ./create/eye.c ./create/tonelut.c ./create/mask_butterworth_band.c ./create/mask_ideal_ring.c ./create/fractsurf.c ."\
-"/create/mask_gaussian_ring.c ./create/create.c ./create/perlin.c ./create/logmat.c ./create/buildlut.c ./create/gaussnoise.c ./create/grey.c ./creat"\
-"e/mask_gaussian_band.c ./create/text.c ./create/mask.c ./freqfilt/phasecor.c ./freqfilt/freqfilt.c ./freqfilt/fwfft.c ./freqfilt/freqmult.c ./freqfi"\
-"lt/invfft.c ./freqfilt/spectrum.c ./conversion/composite.cpp ./resample/bicubic.cpp ./resample/lbb.cpp ./resample/vsqbs.cpp ./resample/reduceh.cpp ."\
-"/resample/reducev.cpp ./resample/nohalo.cpp include/vips/basic.h include/vips/vips.h include/vips/object.h include/vips/image.h include/vips/error.h"\
+S["vips_introspection_sources"]=" ./arithmetic/boolean.c ./arithmetic/hough_circle.c ./arithmetic/hist_find.c ./arithmetic/unaryconst.c ./arithmetic/abs.c ./arithmetic/nary.c ./arit"\
+"hmetic/measure.c ./arithmetic/hough_line.c ./arithmetic/round.c ./arithmetic/math2.c ./arithmetic/complex.c ./arithmetic/stats.c ./arithmetic/avg.c "\
+"./arithmetic/profile.c ./arithmetic/sum.c ./arithmetic/subtract.c ./arithmetic/hist_find_ndim.c ./arithmetic/hough.c ./arithmetic/multiply.c ./arith"\
+"metic/divide.c ./arithmetic/arithmetic.c ./arithmetic/statistic.c ./arithmetic/min.c ./arithmetic/linear.c ./arithmetic/add.c ./arithmetic/hist_find"\
+"_indexed.c ./arithmetic/invert.c ./arithmetic/find_trim.c ./arithmetic/relational.c ./arithmetic/project.c ./arithmetic/remainder.c ./arithmetic/sig"\
+"n.c ./arithmetic/getpoint.c ./arithmetic/deviate.c ./arithmetic/math.c ./arithmetic/unary.c ./arithmetic/binary.c ./arithmetic/max.c ./resample/simi"\
+"larity.c ./resample/resample.c ./resample/interpolate.c ./resample/quadratic.c ./resample/affine.c ./resample/shrinkh.c ./resample/shrinkv.c ./resam"\
+"ple/shrink.c ./resample/transform.c ./resample/mapim.c ./resample/thumbnail.c ./resample/reduce.c ./resample/resize.c ./conversion/bandbool.c ./conv"\
+"ersion/zoom.c ./conversion/replicate.c ./conversion/copy.c ./conversion/cache.c ./conversion/embed.c ./conversion/extract.c ./conversion/subsample.c"\
+" ./conversion/smartcrop.c ./conversion/scale.c ./conversion/sequential.c ./conversion/ifthenelse.c ./conversion/bandary.c ./conversion/wrap.c ./conv"\
+"ersion/join.c ./conversion/gamma.c ./conversion/unpremultiply.c ./conversion/autorot.c ./conversion/falsecolour.c ./conversion/rot45.c ./conversion/"\
+"bandfold.c ./conversion/conversion.c ./conversion/flatten.c ./conversion/byteswap.c ./conversion/tilecache.c ./conversion/cast.c ./conversion/bandra"\
+"nk.c ./conversion/msb.c ./conversion/rot.c ./conversion/recomb.c ./conversion/flip.c ./conversion/switch.c ./conversion/bandunfold.c ./conversion/pr"\
+"emultiply.c ./conversion/grid.c ./conversion/bandmean.c ./conversion/transpose3d.c ./conversion/bandjoin.c ./conversion/arrayjoin.c ./conversion/ins"\
+"ert.c ./convolution/convolution.c ./convolution/conva.c ./convolution/fastcor.c ./convolution/convi.c ./convolution/correlation.c ./convolution/comp"\
+"ass.c ./convolution/convasep.c ./convolution/convsep.c ./convolution/gaussblur.c ./convolution/sobel.c ./convolution/spcor.c ./convolution/conv.c ./"\
+"convolution/convf.c ./convolution/canny.c ./convolution/sharpen.c ./draw/draw_flood.c ./draw/draw_line.c ./draw/draw_circle.c ./draw/drawink.c ./dra"\
+"w/draw.c ./draw/draw_image.c ./draw/draw_rect.c ./draw/draw_mask.c ./draw/draw_smudge.c ./foreign/niftiload.c ./foreign/vipsload.c ./foreign/openexr"\
+"load.c ./foreign/exif.c ./foreign/vips2tiff.c ./foreign/fitsload.c ./foreign/vips2jpeg.c ./foreign/vipspng.c ./foreign/pdfload.c ./foreign/ppmsave.c"\
+" ./foreign/heifsave.c ./foreign/analyzeload.c ./foreign/niftisave.c ./foreign/tiffload.c ./foreign/pngload.c ./foreign/csvsave.c ./foreign/webp2vips"\
+".c ./foreign/analyze2vips.c ./foreign/magick7load.c ./foreign/csvload.c ./foreign/rawload.c ./foreign/matrixsave.c ./foreign/heifload.c ./foreign/vi"\
+"pssave.c ./foreign/magick2vips.c ./foreign/csv.c ./foreign/jpegsave.c ./foreign/cairo.c ./foreign/tiff.c ./foreign/matload.c ./foreign/openexr2vips."\
+"c ./foreign/vips2webp.c ./foreign/pngsave.c ./foreign/jpegload.c ./foreign/magick.c ./foreign/gifload.c ./foreign/webpload.c ./foreign/magicksave.c "\
+"./foreign/openslide2vips.c ./foreign/fitssave.c ./foreign/dzsave.c ./foreign/matrixload.c ./foreign/tiffsave.c ./foreign/ppmload.c ./foreign/radianc"\
+"e.c ./foreign/radload.c ./foreign/svgload.c ./foreign/magickload.c ./foreign/matlab.c ./foreign/webpsave.c ./foreign/tiff2vips.c ./foreign/fits.c ./"\
+"foreign/jpeg2vips.c ./foreign/pdfiumload.c ./foreign/foreign.c ./foreign/radsave.c ./foreign/openslideload.c ./foreign/rawsave.c ./foreign/quantise."\
+"c ./morphology/nearest.c ./morphology/rank.c ./morphology/morphology.c ./morphology/hitmiss.c ./morphology/labelregions.c ./morphology/morph.c ./mor"\
+"phology/countlines.c ./iofuncs/target.c ./iofuncs/sinkscreen.c ./iofuncs/sinkmemory.c ./iofuncs/reorder.c ./iofuncs/dbuf.c ./iofuncs/operation.c ./i"\
+"ofuncs/connection.c ./iofuncs/error.c ./iofuncs/cache.c ./iofuncs/window.c ./iofuncs/image.c ./iofuncs/util.c ./iofuncs/sourcecustom.c ./iofuncs/vip"\
+"s.c ./iofuncs/region.c ./iofuncs/object.c ./iofuncs/type.c ./iofuncs/buf.c ./iofuncs/sink.c ./iofuncs/enumtypes.c ./iofuncs/mapfile.c ./iofuncs/buff"\
+"er.c ./iofuncs/sbuf.c ./iofuncs/sinkdisc.c ./iofuncs/system.c ./iofuncs/header.c ./iofuncs/base64.c ./iofuncs/generate.c ./iofuncs/gate.c ./iofuncs/"\
+"rect.c ./iofuncs/init.c ./iofuncs/vipsmarshal.c ./iofuncs/source.c ./iofuncs/threadpool.c ./iofuncs/targetcustom.c ./iofuncs/vector.c ./iofuncs/sema"\
+"phore.c ./iofuncs/memory.c ./colour/sRGB2HSV.c ./colour/UCS2LCh.c ./colour/scRGB2XYZ.c ./colour/LCh2UCS.c ./colour/scRGB2sRGB.c ./colour/icc_transfo"\
+"rm.c ./colour/rad2float.c ./colour/HSV2sRGB.c ./colour/Yxy2XYZ.c ./colour/LabS2Lab.c ./colour/XYZ2Yxy.c ./colour/sRGB2scRGB.c ./colour/dECMC.c ./col"\
+"our/LabQ2Lab.c ./colour/LabS2LabQ.c ./colour/float2rad.c ./colour/colourspace.c ./colour/colour.c ./colour/scRGB2BW.c ./colour/Lab2LabQ.c ./colour/L"\
+"abQ2LabS.c ./colour/profiles.c ./colour/dE00.c ./colour/XYZ2CMYK.c ./colour/Lab2XYZ.c ./colour/profile_load.c ./colour/CMYK2XYZ.c ./colour/dE76.c ./"\
+"colour/Lab2LCh.c ./colour/XYZ2Lab.c ./colour/Lab2LabS.c ./colour/LCh2Lab.c ./colour/XYZ2scRGB.c ./colour/LabQ2sRGB.c ./create/gaussmat.c ./create/te"\
+"xt.c ./create/logmat.c ./create/mask_gaussian.c ./create/mask_ideal_band.c ./create/mask_gaussian_band.c ./create/worley.c ./create/create.c ./creat"\
+"e/mask_butterworth_ring.c ./create/mask.c ./create/eye.c ./create/perlin.c ./create/buildlut.c ./create/mask_ideal.c ./create/grey.c ./create/fracts"\
+"urf.c ./create/invertlut.c ./create/sines.c ./create/mask_butterworth_band.c ./create/mask_fractal.c ./create/xyz.c ./create/mask_gaussian_ring.c ./"\
+"create/point.c ./create/tonelut.c ./create/mask_butterworth.c ./create/zone.c ./create/identity.c ./create/black.c ./create/mask_ideal_ring.c ./crea"\
+"te/gaussnoise.c ./histogram/maplut.c ./histogram/hist_ismonotonic.c ./histogram/case.c ./histogram/percent.c ./histogram/histogram.c ./histogram/std"\
+"if.c ./histogram/hist_norm.c ./histogram/hist_match.c ./histogram/hist_equal.c ./histogram/hist_plot.c ./histogram/hist_cum.c ./histogram/hist_unary"\
+".c ./histogram/hist_entropy.c ./histogram/hist_local.c ./mosaicing/im_lrmerge.c ./mosaicing/im_lrmosaic.c ./mosaicing/mosaic.c ./mosaicing/mosaic1.c"\
+" ./mosaicing/im_lrcalcon.c ./mosaicing/global_balance.c ./mosaicing/im_tbcalcon.c ./mosaicing/im_tbmerge.c ./mosaicing/im_initialize.c ./mosaicing/i"\
+"m_improve.c ./mosaicing/merge.c ./mosaicing/im_clinear.c ./mosaicing/im_chkpair.c ./mosaicing/match.c ./mosaicing/im_remosaic.c ./mosaicing/im_tbmos"\
+"aic.c ./mosaicing/mosaicing.c ./mosaicing/im_avgdxdy.c ./freqfilt/fwfft.c ./freqfilt/phasecor.c ./freqfilt/freqfilt.c ./freqfilt/freqmult.c ./freqfi"\
+"lt/spectrum.c ./freqfilt/invfft.c ./resample/vsqbs.cpp ./resample/reduceh.cpp ./resample/reducev.cpp ./resample/bicubic.cpp ./resample/lbb.cpp ./res"\
+"ample/nohalo.cpp ./conversion/composite.cpp include/vips/basic.h include/vips/vips.h include/vips/object.h include/vips/image.h include/vips/error.h"\
 " include/vips/foreign.h include/vips/freqfilt.h include/vips/interpolate.h include/vips/header.h include/vips/histogram.h include/vips/operation.h i"\
 "nclude/vips/enumtypes.h include/vips/conversion.h include/vips/arithmetic.h include/vips/colour.h include/vips/convolution.h include/vips/create.h i"\
 "nclude/vips/draw.h include/vips/morphology.h include/vips/mosaicing.h include/vips/type.h include/vips/rect.h include/vips/resample.h include/vips/m"\
@@ -1207,7 +1206,7 @@ S["am__leading_dot"]="."
 S["SET_MAKE"]=""
 S["AWK"]="gawk"
 S["mkdir_p"]="$(MKDIR_P)"
-S["MKDIR_P"]="/bin/mkdir -p"
+S["MKDIR_P"]="/usr/bin/mkdir -p"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]="strip"
 S["install_sh"]="${SHELL} /home/runner/work/photography/photography/vips-8.9.2/install-sh"
@@ -1388,6 +1387,7 @@ D["HAVE_BASE64_ENCODE"]=" 1"
 D["HAVE_CONTEXT_GET_HELP"]=" 1"
 D["HAVE_GIO"]=" 1"
 D["HAVE_MONOTONIC_TIME"]=" 1"
+D["HAVE_DATE_TIME_FORMAT_ISO8601"]=" 1"
 D["HAVE_MUTEX_INIT"]=" 1"
 D["HAVE_COND_INIT"]=" 1"
 D["HAVE_THREAD_NEW"]=" 1"
@@ -1430,6 +1430,7 @@ D["HAVE_PPM"]=" 1"
 D["HAVE_ANALYZE"]=" 1"
 D["HAVE_RADIANCE"]=" 1"
 D["HAVE_TIFF"]=" 1"
+D["HAVE_TIFF_COMPRESSION_WEBP"]=" 1"
 D["HAVE_PNG"]=" 1"
 D["HAVE_PNG_SET_CHUNK_MALLOC_MAX"]=" 1"
 D["HAVE_PNG_SET_CHUNK_MALLOC_MAX"]=" 1"
